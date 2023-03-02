@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iniciar sesion</title>
+</head>
+<link rel="stylesheet" href="trabajo2.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<body>
+    <nav class="navbar navbar-expand-lg arriba" data-bs-theme="dark">
+        
+        <div class="container-fluid" >
+          <a class="navbar-brand logo" href="trabajo2.html">
+            <img src="retroshop.png" alt="logo tienda" class="imagenuno">
+          </a>
+          <a class="nav-link active in " aria-current="page" href="trabajo2.html">Inicio</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 boton" type="search" placeholder="Buscar" aria-label="Search" >
+            <button class="btn btn-custom" type="submit">Buscar</button>
+          </form>
+          <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+            <div class="navbar-nav">
+              
+                <a class="nav-link inicio" href="mas.html">Mas vendido</a>
+                <a class="nav-link" href="https://www.pccomponentes.com/buscar/?query=reacondicionado&or-relevance">Reacondicionado</a>
+                <a class="nav-link" href="iniciosesion.html">Mi cuenta</a>
+                <a class="nav-link quien" href="quienes.html">Quienes somos</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+	<h2 class="inir">Ingrese su usuario y contrasena</h2>
+    <div class="ses">
+	<form method="POST" action="procesar.php">
+		<label>Nombre:</label><br>
+		<input type="text" name="nombre"><br>
+		<label>Contrasena:</label><br>
+		<input type="password" name="contra"><br><br>
+		<img src="boton.png" class="fin" href="trabajo2.html">
+	</form>
+</div></div>
+</body>
+</html>
